@@ -19,4 +19,4 @@ else:
             # if their remainder is 0, stop the loop. meaning it's not a prime number
             elif (counter % anotherCounter) == 0:
                 break
-    print("The sum of all the prime numbers from 1 to {} is {:,}.".format(number, sumOfPrimeNumber))
+    print(f"The sum of all the prime numbers from 1 to {number} is {sumOfPrimeNumber:,}.")
